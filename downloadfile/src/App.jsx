@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-    
+    <h1>Descarga tu plantilla</h1>
        
       <div className="card">
         <button onClick={downloadFile}>
