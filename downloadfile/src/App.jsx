@@ -7,8 +7,9 @@ function App() {
 
   
   const downloadFile = () => {
+    console.log("filedescarga");  
     //Download file
-    const urlFile = ''
+    const urlFile = 'http://localhost:5173/plantilla.xlsm'
     fetch(urlFile).then(response => {
       response.blob().then(blob => {
         const url = window.URL.createObjectURL(blob)
